@@ -1,0 +1,16 @@
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	img {
+		width: 100%;
+	}
+	.hero_container {
+		margin-top: 2rem;
+        text-align: center;
+		p {
+			margin: 1rem 0;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.spotlight {
+	margin-top: 5rem;
+	.heading_container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.headling {
+			font-size: 1.5rem;
+			margin-bottom: 2rem;
+		}
+		.button_container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 1rem;
+			.btn {
+				width: 50px;
+				height: 50px;
+				background-color: #f5f5f5;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-radius: 50%;
+				cursor: pointer;
+				&:hover {
+					background-color: #b2b2b2;
+				}
+			}
+			.active {
+				background-color: #b2b2b2;
+			}
+		}
+	}
+	.spotlight_slider {
+		.swiper_item {
+			img {
+				width: 100%;
+			}
+            .details {
+                margin-top: 0.5rem;
+                display: flex;
+                justify-content: space-between;
+                .variant {
+                    color: #b2b2b2;
+                }
+            }
+		}
+	}
+}
